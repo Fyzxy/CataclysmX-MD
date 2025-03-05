@@ -433,10 +433,10 @@ conn.sendMessage(m.chat, {
                   id: '.gp'
                 },
                 {
-                  header: '📂 COOMING SOON',
-                  title: 'belum ada handler',
+                  header: '📂 SF',
+                  title: 'untuk menambahkan plugin',
                   description: 'Click to Display',
-                  id: 'totaluser2'
+                  id: '.sf'
                  }
               ]
             },
