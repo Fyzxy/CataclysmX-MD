@@ -1,6 +1,5 @@
-// Script Ori By BochilGaming
-// Ditulis Ulang Oleh ImYanXiao
-// Disesuaikan Oleh ShirokamiRyzen
+// Base For BochilGaming
+// Di Kembangkan Oleh Fyzxy
 
 import { promises } from 'fs'
 import { join } from 'path'
@@ -452,10 +451,10 @@ conn.sendMessage(m.chat, {
                   id: '.pln'
                 },
                 {
-                  header: '📂 COOMING SOON',
-                  title: 'belum ada handler',
+                  header: '📂 SCRIPT',
+                  title: 'informasi update script',
                   description: 'Click to Display',
-                  id: 'ping2'
+                  id: '.script'
                 },
                 {
                   header: '📂 COOMING SOON',
