@@ -457,10 +457,10 @@ conn.sendMessage(m.chat, {
                   id: '.script'
                 },
                 {
-                  header: '📂 COOMING SOON',
-                  title: 'belum ada handler',
+                  header: '📂 SPAM REACT CH',
+                  title: 'untuk spam react ke channel whatsapp',
                   description: 'Click to Display',
-                  id: 'totaluser2'  
+                  id: '.reactch'  
                 }
               ]
             }
