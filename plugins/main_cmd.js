@@ -365,6 +365,12 @@ conn.sendMessage(m.chat, {
                   title: 'untuk menampilkan get result api dll',
                   description: 'Click to Display',
                   id: '.get'
+                },
+                {
+                  header: '📂 CEK ID CH',
+                  title: 'untuk melihat id channel',
+                  description: 'Click to Display',
+                  id: '.idch'
                   }
               ]
             },
