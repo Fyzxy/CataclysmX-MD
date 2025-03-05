@@ -5,7 +5,7 @@
   Buat Yg Nggk muncul Codenya Itu Disebabkan Oleh Banyaknya Plugins
   Jika Ingin Mengambil Sesi, Backup Semua File Plugins & Hapus Semua File Plugins
   Setelah Sudah Kalian Bisa Mengembalikan Semua File Pluginsnya Agar Bisa Dipakai
-  Regards from YanXiao ♡
+  Regards from Fyzxy💨
 */
 
 // process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
