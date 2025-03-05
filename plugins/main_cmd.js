@@ -427,10 +427,10 @@ conn.sendMessage(m.chat, {
                   id: '.df'
                 },
                 {
-                  header: '📂 COOMING SOON',
-                  title: 'belum ada handler',
+                  header: '📂 GP',
+                  title: 'untuk mengambil plugin',
                   description: 'Click to Display',
-                  id: 'ping2'
+                  id: '.gp'
                 },
                 {
                   header: '📂 COOMING SOON',
