@@ -421,10 +421,10 @@ conn.sendMessage(m.chat, {
               highlight_label: `1.0.0`,
               rows: [
                 {
-                  header: '📂 COOMING SOON',
-                  title: 'belum ada handler',
+                  header: '📂 DF',
+                  title: 'untuk menghapus plugin',
                   description: 'Click to Display',
-                  id: 'totalcase2'
+                  id: '.df'
                 },
                 {
                   header: '📂 COOMING SOON',
