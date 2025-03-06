@@ -1,5 +1,6 @@
 import yargs from 'yargs';
 import cfonts from 'cfonts';
+import chalk from 'chalk';
 import { fileURLToPath } from 'url';
 import { join, dirname } from 'path';
 import { createRequire } from 'module';
@@ -12,10 +13,39 @@ const { say } = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const require = createRequire(__dirname);
-const { name, author } = require(join(__dirname, './package.json'));
+const { name, version, author } = require(join(__dirname, './package.json'));
+// 𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜 𝘾𝙤𝙣𝙨𝙤𝙡𝙚
+console.log(chalk.blue.bold(` 
+█ 15%
+██ 30%
+███ 45%
+████ 60%
+█████ 75%
+██████ 100%
+⋘ 𝑃𝑙𝑒𝑎𝑠𝑒 𝑤𝑎𝑖𝑡 – 𝑙𝑜𝑎𝑑𝑖𝑛𝑔 𝑑𝑎𝑡𝑎… ⋙
+[████████]99%
+⋘ Tʀᴀɴsᴍɪssɪᴏɴ sᴜᴄᴄᴇss. ʀᴇᴀᴅʏ ᴛᴏ ᴜsᴇ... ⋙
+`));
+console.log(chalk.green.bold(`
+    --------------------------------------
+    🤖 Selamat datang di CataclysmX
+  terimakasih telah menggunakan script ini 👍
+    --------------------------------------
+  `));
+  
+  console.log(chalk.yellow.bold("📁     Inisialisasi modul..."));
+  console.log(chalk.cyan.bold("- API Baileys Telah Dimuat"));
+  console.log(chalk.cyan.bold("- Sistem File Siap Digunakan"));
+  console.log(chalk.cyan.bold("- Database Telah Diinisialisasi"));
 
-say('Lightweight\nWhatsApp Bot', { font: 'chrome', align: 'center', gradient: ['red', 'magenta'] });
-say(`'${name}' By @${author.name || author}`, { font: 'console', align: 'center', gradient: ['red', 'magenta'] });
+  console.log(chalk.blue.bold("\n🤖 Info Bot:"));
+  console.log(chalk.white.bold("  | GitHub: ") + chalk.cyan.bold("https://github.com/Fyzxy/CataclysmX-MD"));
+  console.log(chalk.white.bold("  | Developer: ") + chalk.green.bold("Fyzxy"));
+  console.log(chalk.white.bold("  | Status Server: ") + chalk.green.bold("Online"));
+  console.log(chalk.white.bold("  | Versi: ") + chalk.magenta.bold(version));
+  console.log(chalk.white.bold("  | Versi Node.js: ") + chalk.magenta.bold(process.version));
+  
+  console.log(chalk.blue.bold("\n🔁 Memuat plugin dan scraper...")) 
 
 console.log('🐾 Starting...'); 
 
